@@ -65,10 +65,10 @@ public class Cajero {
 		int nCuenta;
 		do {
 			System.out.println(
-					"\nMenu:" + "\n1. Ver saldo" + "\n2. Retirar dinero" + "\n3. Depositar dinero" + "\n4. Salir al Menu\n5. Salir del sistema");
+					"\nMenú:" + "\n1. Ver saldo" + "\n2. Retirar dinero" + "\n3. Depositar dinero" + "\n4. Salir al Menu\n5. Salir del sistema");
 			String opcion = entrada.nextLine();
 			if (!opcion.equals("1") && !opcion.equals("2") && !opcion.equals("3") && !opcion.equals("4")&&!opcion.equals("5")) {
-				System.out.println("----------------------\nIngrese una opcion valida\n----------------------\n");
+				System.out.println("----------------------\nIngrese una opción válida\n----------------------\n");
 			} else if (opcion.equals("4")) {
 				flag = true;
 				inicio();
